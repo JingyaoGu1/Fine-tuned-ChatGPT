@@ -5,7 +5,8 @@ This project lets users to login and uploaded their own personal files to fine-t
 
 ## Installation
 
-Go to backend and install the required packages
+### Go to backend
+Install the required packages
 ```
 pip install langchain openai chromadb tiktoken unstructured
 ```
@@ -13,9 +14,15 @@ Add a file called `constants.py` to use your own [OpenAI API key](https://platfo
 ```
 APIKEY = "YOUR KEY"
 ```
-run python3 app.py to start the backend server
+run 
+```
+python3 app.py
+```
+to start the backend server.  
 
-Go to frontend and run 
+### Go to frontend 
+
+run
 ```
 npm install
 ```
@@ -23,5 +30,8 @@ then run
 ```
 npm start
 ```
-<img width="939" alt="Screenshot 2023-11-29 at 9 57 09 PM" src="https://github.com/JingyaoGu1/Fine-tuned-ChatGPT/assets/43628019/4f3bc067-676d-4f10-b213-05ac710d541e">
+
+Snapshot of the page:
+<img width="939" alt="Screenshot 2023-11-30 at 2 27 02 PM" src="https://github.com/JingyaoGu1/Fine-tuned-ChatGPT/assets/43628019/e54a3787-ec43-4443-82e8-6d59a7b1ffd3">
+
 
